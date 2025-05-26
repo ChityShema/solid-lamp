@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScalaETL_HR_DWH.iml" filepath="$PROJECT_DIR$/.idea/modules/ScalaETL_HR_DWH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScalaETL_HR_DWH.ScalaETL_HR_DWH-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ScalaETL_HR_DWH.ScalaETL_HR_DWH-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScalaETL_HR_DWH/ScalaETL_HR_DWH.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ScalaETL_HR_DWH/ScalaETL_HR_DWH.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScalaETL_HR_DWH/ScalaETL_HR_DWH.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ScalaETL_HR_DWH/ScalaETL_HR_DWH.test.iml" />
+    </modules>
+  </component>
+</project>
