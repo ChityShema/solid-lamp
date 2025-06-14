@@ -1,0 +1,20 @@
+# Scala specific
+*.class
+*.log
+target/
+project/target/
+project/project/
+
+# IDE specific
+.idea/
+.bsp/
+.vscode/
+*.iml
+
+# Data files
+data/output/*
+*.csv
+*.parquet
+
+# Environment variables
+.env

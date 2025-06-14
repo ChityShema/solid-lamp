@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Amazon.com Inc. Java 11.0.26)
+[debug] Load.defaultLoad until apply took 432.2731ms
+[debug]           Load.loadUnit: plugins took 325.5726ms
+[debug]           Load.loadUnit: defsScala took 0.4908ms
+[debug] [Loading] Scanning directory C:\Users\SPATHIVA\ScalaETL_HR_DWH\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\SPATHIVA\ScalaETL_HR_DWH\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 54.5529 ms
+[debug]               Load.resolveProject(scalaetl_hr_dwh-build) took 175.8708ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scalaetl_hr_dwh-build, base: C:\Users\SPATHIVA\ScalaETL_HR_DWH\project, plugins: List(<none>))) took 322.0168ms
+[debug] [Loading] Done in C:\Users\SPATHIVA\ScalaETL_HR_DWH\project, returning: (scalaetl_hr_dwh-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 406.4351ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.3728ms
+[debug]         Load.loadUnit(file:/C:/Users/SPATHIVA/ScalaETL_HR_DWH/project/, ...) took 743.7305ms
+[debug]       Load.apply: load took 2147.7797ms
+[debug]       Load.apply: resolveProjects took 349.9212ms
+[debug]       Load.apply: finalTransforms took 2103.5913ms
+[debug]       Load.apply: config.delegates took 12.8851ms
+[debug]       Load.apply: Def.make(settings)... took 1232.2248ms
+[debug]       Load.apply: structureIndex took 163.899ms
+[debug]       Load.apply: mkStreams took 2.5244ms
+[info] loading project definition from C:\Users\SPATHIVA\ScalaETL_HR_DWH\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 22987.1498ms
+[debug]     Load.loadUnit: defsScala took 0.0158ms
+[debug] [Loading] Scanning directory C:\Users\SPATHIVA\ScalaETL_HR_DWH
+[debug]       Load.loadUnit: mkEval took 38.3246ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.4792 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 28.3545ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\SPATHIVA\ScalaETL_HR_DWH, plugins: List(<none>))) took 50.6833ms
+[debug] [Loading] Done in C:\Users\SPATHIVA\ScalaETL_HR_DWH, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 5720.2537ms
+[debug]     Load.loadUnit: cleanEvalClasses took 239.9417ms
+[debug]   Load.loadUnit(file:/C:/Users/SPATHIVA/ScalaETL_HR_DWH/, ...) took 28951.3192ms
+[debug] Load.apply: load took 29045.5483ms
+[debug] Load.apply: resolveProjects took 3.2294ms
+[debug] Load.apply: finalTransforms took 29.7138ms
+[debug] Load.apply: config.delegates took 1.0008ms
+[debug] Load.apply: Def.make(settings)... took 1442.3462ms
+[debug] Load.apply: structureIndex took 327.661ms
+[debug] Load.apply: mkStreams took 0.0037ms
+[info] set current project to ScalaETL_HR_DWH (in build file:/C:/Users/SPATHIVA/ScalaETL_HR_DWH/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-4f506364d28b2a4bf12d
+[debug] Writing bsp connection file
+[info] started sbt server
