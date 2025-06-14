@@ -29,3 +29,19 @@ case class Employee(
                      manager_id: Option[Int],
                      department_id: Option[Int]
                    ) extends Serializable
+
+case class JobSwitch(
+                     employee_id: Int,
+                     old_job_id: String,
+                     new_job_id: String,
+                     switch_date: String
+                   ) extends Serializable
+
+case class RetentionMetric(
+                           employee_id: Int,
+                           avg_training_score: Double,
+                           performance_score: Double,
+                           job_switches: Int,
+                           tenure_months: Int,
+                           retention_score: Double
+                         ) extends Serializable

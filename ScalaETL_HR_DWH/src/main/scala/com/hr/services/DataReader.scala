@@ -33,4 +33,69 @@ class DataReader(spark: SparkSession) {
       .option("driver", "org.postgresql.Driver")
       .load()
   }
+
+  def readDepartments(): DataFrame = {
+    val pgConfig = ConfigurationLoader.getDatabaseConfig("postgres")
+
+    spark.read
+      .format("jdbc")
+      .option("url", pgConfig("url"))
+      .option("dbtable", "departments")
+      .option("user", pgConfig("user"))
+      .option("password", pgConfig("password"))
+      .option("driver", "org.postgresql.Driver")
+      .load()
+  }
+
+  def readJobs(): DataFrame = {
+    val pgConfig = ConfigurationLoader.getDatabaseConfig("postgres")
+
+    spark.read
+      .format("jdbc")
+      .option("url", pgConfig("url"))
+      .option("dbtable", "jobs")
+      .option("user", pgConfig("user"))
+      .option("password", pgConfig("password"))
+      .option("driver", "org.postgresql.Driver")
+      .load()
+  }
+
+  def readLocations(): DataFrame = {
+    val pgConfig = ConfigurationLoader.getDatabaseConfig("postgres")
+
+    spark.read
+      .format("jdbc")
+      .option("url", pgConfig("url"))
+      .option("dbtable", "locations")
+      .option("user", pgConfig("user"))
+      .option("password", pgConfig("password"))
+      .option("driver", "org.postgresql.Driver")
+      .load()
+  }
+
+  def readCountries(): DataFrame = {
+    val pgConfig = ConfigurationLoader.getDatabaseConfig("postgres")
+
+    spark.read
+      .format("jdbc")
+      .option("url", pgConfig("url"))
+      .option("dbtable", "countries")
+      .option("user", pgConfig("user"))
+      .option("password", pgConfig("password"))
+      .option("driver", "org.postgresql.Driver")
+      .load()
+  }
+
+  def readRegions(): DataFrame = {
+    val pgConfig = ConfigurationLoader.getDatabaseConfig("postgres")
+
+    spark.read
+      .format("jdbc")
+      .option("url", pgConfig("url"))
+      .option("dbtable", "regions")
+      .option("user", pgConfig("user"))
+      .option("password", pgConfig("password"))
+      .option("driver", "org.postgresql.Driver")
+      .load()
+  }
 }
